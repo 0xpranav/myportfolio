@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"description": "Software Developer portfolio",
 	"main": "index.js",
-	"repository": "",
+	"repository": "https://github.com/0xpranav/myportfolio.git",
 	"author": "Pranav Garg",
 	"license": "",
 	"scripts": {
