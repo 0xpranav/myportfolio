@@ -2,6 +2,7 @@ import emoji from "react-easy-emoji";
 
 export const greetings = {
 	name: "Pranav Garg",
+	firstname: "Pranav",
 	title: "Hi, I'm Pranav",
 	description:
 		" A Problem Solver & Self taught Full Stack web3 developer based in India, creating a better web for everyone.",
@@ -232,7 +233,7 @@ export const educationInfo = [
 		schoolName: "SGSITS Indore",
 		subHeader: "B.Tech 'EE'",
 		duration: "2017 - 2021",
-		desc: "work on developing a holistic personality for my future endeavors.",
+		desc: "work on developing a holistic personality including leadership & public speaking.",
 		grade: "Grade A",
 		descBullets: [
 			"Study basics of electronics & microprocessing.",
@@ -302,7 +303,7 @@ export const certificationInfo = [
 		provider: "Cognizant",
 		issueDate: "May 2022",
 		desc: "Writing Smart-Contracts in Solidity and Blockchain security using openzeppelin & remix.",
-		link: "https://ude.my/UC-7966a0b7-2adf-46f9-a52e-99ac516e38d9",
+		link: "https://drive.google.com/file/d/1do-vZGFvTMoXm76RC31te6SoVLdZa_wm/view",
 		descBullets: [
 			"learn Sollidity.",
 			"Smart-Contract security using 'Openzeppelin libraries'.",

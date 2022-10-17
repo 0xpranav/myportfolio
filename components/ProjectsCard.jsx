@@ -12,7 +12,7 @@ const ProjectsCard = ({ data }) => {
 					<CardBody>
 						<div className="d-flex px-3">
 							<div className="pl-4">
-								<h3>{data.name}</h3>
+								<h3 className="paratext">{data.name}</h3>
 								<p className="description mt-3">{data.desc}</p>
 								{data.github ? (
 									<Button

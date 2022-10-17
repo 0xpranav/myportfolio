@@ -44,30 +44,30 @@ const GithubProfileCard = ({ prof }) => {
 							
 						</Col> 
 						<Col lg="8" className="order-lg-1">
-							<h2 className="text-white">Let`s connect!</h2>
+							<h2 className="text-white paratext">Let`s connect!</h2>
 							<p className="lead text-white mt-3 ">
 								Discuss a project or just a simple Hi, my inbox is open to all. 🙂
 							</p>
         <section className="get-in-touch form-group">
-		<Card className=" shadow mt-0 bg-light">
+		<Card className=" shadow mt-0">
    <form className="contact-form row">
       <div className="form-field col-lg-5  ">
-         <input id="name" className="input-text js-input form-control mx-2  bg-light" Id="floatingName" type="text" required/>
+         <input id="name" className="input-text js-input form-control mx-2 " Id="floatingName" type="text" required/>
 		 <label className="label " For="floatingName">Name</label>
       </div>
 
       <div className="form-field col-lg-5  ">
-         <input id="email" className="input-text js-input form-control mx-2  bg-light" Id="floatingEmail" type="email" required/>
+         <input id="email" className="input-text js-input form-control mx-2 " Id="floatingEmail" type="email" required/>
 		 <label className="label " For="floatingEmail">Email</label>
       </div>
 
       <div className="form-field col-lg-8 ">
-	  <input id="subject" className="input-text js-input form-control mx-2  bg-light" Id="floatingSubject" type="text" required/>
+	  <input id="subject" className="input-text js-input form-control mx-2 t" Id="floatingSubject" type="text" required/>
       <label className="label" For="floatingSubject">Subject</label>
       </div>
 
       <div className="form-field col-lg-8 ">
-         <textarea id="message" className="input-text js-input form-control txtarea mx-2  bg-light" Id="floatingMsg" type="text" rows='10' required/>
+         <textarea id="message" className="input-text js-input form-control txtarea mx-2 " Id="floatingMsg" type="text" rows='10' required/>
 		 <label className="label" For="floatingMsg">Message</label>
       </div>
 

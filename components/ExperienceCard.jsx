@@ -35,13 +35,13 @@ const ExperienceCard = ({ data }) => {
 							className="shadow mb-3"
 							alt={data.companylogo}
 						/>
-						<CardTitle tag="h4" className="mb-2">
+						<CardTitle tag="h4" className="mb-2 paratext">
 							{data.company}
 						</CardTitle>
 						
 					</Col>
 					<Col lg="3" className="pr-5">
-					<CardSubtitle tag="h5" className="mb-2">
+					<CardSubtitle tag="h5" className="mb-2 paratext">
 							{data.role}
 						</CardSubtitle>
 						<CardSubtitle>{data.date}</CardSubtitle>

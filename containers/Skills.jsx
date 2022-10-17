@@ -8,8 +8,8 @@ import { skillsSection } from "../portfolio";
 const Skills = () => {
 	return skillsSection && (
 		<Container className="text-center my-2 section section-sm">
-			<h1 className="h1">{skillsSection.title}</h1>
-			<p className="lead">{skillsSection.subTitle}</p>
+			<h1 className="h1 paraf">{skillsSection.title}</h1>
+			<p className="lead paratext">{skillsSection.subTitle}</p>
 			{skillsSection.data.map((section, index) => {
 				return (
 					<Row className="my-5" key={index}>
@@ -50,7 +50,7 @@ const Skills = () => {
 										);
 									})}
 								</div>
-								<div className="text-left">
+								<div className="text-left paratext">
 									{section.skills.map((skill, i) => {
 										return <p key={i}>{skill}</p>;
 									})}

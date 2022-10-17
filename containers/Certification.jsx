@@ -25,7 +25,7 @@ const Certification = () => {
 						</div>
 					</div>
 					<div className="pl-4">
-						<h4 className="display-3 text-white">Certification</h4>
+						<h4 className="display-3 text-white paraf">Certification</h4>
 					</div>
 				</div>
 				<Row className="row-grid align-items-center">

@@ -31,10 +31,10 @@ const Greetings = () => {
 							<Row>
 								<Col lg="6">
 								<div className="mt-7">
-								<h1 className="display-3 text-white">
-										{greetings.title + " "}
+								<h1 className="display-3 text-white frname">
+										{greetings.title+""}
 									</h1>
-									<p className="lead text-white">
+									<p className="lead text-white paratext">
 										{greetings.description}
 									</p>
 									<div className="btn-wrapper my-4">
