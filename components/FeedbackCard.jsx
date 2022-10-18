@@ -5,7 +5,7 @@ import { Fade } from "react-reveal";
 
 const FeedbackCard = ({ data }) => {
 	return (
-		<Fade bottom duration={2000} >
+		<Fade bottom duration={1800} >
 			<Card className="card-lift--hover shadow mt-4">
 				<CardBody>
 					<div className="d-flex px-3">

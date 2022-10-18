@@ -15,7 +15,7 @@ import { Fade } from "react-reveal";
 const ExperienceCard = ({ data }) => {
 	return (
 		
-			<Fade left duration={2000}>
+			<Fade left duration={1800}>
 			<CardBody className="">
 					<Row className="d-flex justify-content-between align-items-center">
 					<Col lg="3" className="pr-5">

@@ -5,7 +5,7 @@ import { Fade } from "react-reveal";
 
 const EducationCard = ({ education }) => {
 	return (
-		<Fade left duration={2000} >
+		<Fade left duration={1800} >
 			<Card className="card-lift--hover shadow mt-4">
 				<CardBody>
 					<div className="d-flex px-3">

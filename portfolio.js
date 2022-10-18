@@ -5,9 +5,9 @@ export const greetings = {
 	firstname: "Pranav",
 	title: "Hi, I'm Pranav",
 	description:
-		" A Problem Solver & Self taught Full Stack web3 developer based in India, creating a better web for everyone.",
+		" A Problem solver & self taught Full Stack web3 developer based in India, creating a better web for everyone.",
 	resumeLink:
-		"https://drive.google.com/file/d/1P2NHCbB460ozCBgjiY3I0Ze2l-8n_f8z/view?usp=sharing",
+		"https://1drv.ms/b/s!Ai_HztpRb6fjhQ7LIV_7bZP6Dc4u?e=ygJicW",
 };
 
 export const openSource = {
@@ -233,11 +233,11 @@ export const educationInfo = [
 		schoolName: "SGSITS Indore",
 		subHeader: "B.Tech 'EE'",
 		duration: "2017 - 2021",
-		desc: "work on developing a holistic personality including leadership & public speaking.",
+		desc: "worked to develop a holistic personality, including leadership and public speaking.",
 		grade: "Grade A",
 		descBullets: [
-			"Study basics of electronics & microprocessing.",
-			"Built advanced bidirectional charger EV's.",
+			"learned the fundamentals of electronics and microprocessors.",
+			"EV charger with built-in advanced bidirectional power flow.",
 			"Learn Web Development & DSA.",
 		],
 	},
@@ -303,7 +303,7 @@ export const certificationInfo = [
 		provider: "Cognizant",
 		issueDate: "May 2022",
 		desc: "Writing Smart-Contracts in Solidity and Blockchain security using openzeppelin & remix.",
-		link: "https://drive.google.com/file/d/1do-vZGFvTMoXm76RC31te6SoVLdZa_wm/view",
+		link: "https://1drv.ms/b/s!Ai_HztpRb6fjhGxFkYw2fgLmqVRN?e=dVXxZg",
 		descBullets: [
 			"learn Sollidity.",
 			"Smart-Contract security using 'Openzeppelin libraries'.",
@@ -331,10 +331,11 @@ export const experience = [
 		company: "Cognizant",
 		companylogo: "/img/icons/common/cognizant.svg",
 		date: "Oct 2021 – Present",
-		desc: "Worked on IBM BAW, Websphere MQ, javascript & spring boot, working in a team on creating a web application for testing codes with node.js & react",
+		desc: "Worked on IBM BAW, Websphere MQ, Javascript, and working in a team on creating an application for testing codes with node.js and react.",
 		descBullets: [
-			"Working for 'Humana.Inc' for simplifying CRM system.",
 			"Created a leave management system using IBM BAW.",
+			"Working for 'Humana.Inc' on simplifying CRM system."
+			
 		]
 		
 	},
@@ -381,13 +382,11 @@ export const projects = [
 export const feedbacks = [
 	{
 		name: "Mithun HS",
-		feedback:
-			"Pranav is a great team player and have good knowledge of the technologies he is working upon,you can trust him with a project from start to finish.",
+		feedback:"Pranav is a great team player and has good knowledge of the technologies he is working on. You can trust him with a project from start to finish.",
 	},
 	{
-		name: "Hardik singh",
-		feedback:
-			"Pranav is a good asset specially working on web3 development, he has good understanding the merits & ptifalls of his field.",
+		name: "Elango Desingh",
+		feedback:"Pranav is a good asset for web development. He has been professional, comprehensive, and competent throughout the process of our working together.",
 	},
 ];
 
