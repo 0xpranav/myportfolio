@@ -1,11 +1,12 @@
-import React from "react";
-
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import { Card, Col, Row, Container } from "reactstrap";
+import ContactUs from "../pages/ContactUs";
 
 import SocialLinks from "../components/SocialLinks";
 import Image from "next/image";
 
-// Initialize and add the map
+/* Initialize and add the map
 function initMap() {
 	// The location of Uluru
 	const uluru = { lat: -25.344, lng: 131.031 };
@@ -19,7 +20,7 @@ function initMap() {
 	  position: uluru,
 	  map: map,
 	});
-  }
+  }*/
 
 const GithubProfileCard = ({ prof }) => {
 	return (
@@ -50,31 +51,7 @@ const GithubProfileCard = ({ prof }) => {
 							</p>
         <section className="get-in-touch form-group">
 		<Card className=" shadow mt-0">
-   <form className="contact-form row">
-      <div className="form-field col-lg-5  ">
-         <input id="name" className="input-text js-input form-control mx-2 " Id="floatingName" type="text" required/>
-		 <label className="label " For="floatingName">Name</label>
-      </div>
-
-      <div className="form-field col-lg-5  ">
-         <input id="email" className="input-text js-input form-control mx-2 " Id="floatingEmail" type="email" required/>
-		 <label className="label " For="floatingEmail">Email</label>
-      </div>
-
-      <div className="form-field col-lg-8 ">
-	  <input id="subject" className="input-text js-input form-control mx-2 t" Id="floatingSubject" type="text" required/>
-      <label className="label" For="floatingSubject">Subject</label>
-      </div>
-
-      <div className="form-field col-lg-8 ">
-         <textarea id="message" className="input-text js-input form-control txtarea mx-2 " Id="floatingMsg" type="text" rows='10' required/>
-		 <label className="label" For="floatingMsg">Message</label>
-      </div>
-
-      <div className="form-field col-lg-12 ml-3 d-flex justify-content-left">
-         <input className="submit-btn btn" type="submit" value="Submit"/>
-      </div>
-   </form>
+		<ContactUs/>
    </Card>
 </section>
 
