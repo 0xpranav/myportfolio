@@ -60,7 +60,7 @@ export const skillsSection = {
 					fontAwesomeClassname: "logos:nodejs",
 				},
 				{
-					skillName: "Nodejs",
+					skillName: "Bootstrap",
 					fontAwesomeClassname: "logos:bootstrap",
 				},
 				{
@@ -107,7 +107,7 @@ export const skillsSection = {
 					fontAwesomeClassname: "logos:mongodb-icon",
 				},
 				{
-					skillName: "Azure",
+					skillName: "MySQL",
 					fontAwesomeClassname: "logos:mysql",
 				},
 				{

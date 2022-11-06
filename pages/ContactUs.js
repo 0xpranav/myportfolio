@@ -2,6 +2,7 @@ import React, { useRef, useState} from "react";
 import emailjs from "@emailjs/browser";
 
 
+
 export const ContactUs = () => {
   const form = useRef();
 
@@ -12,9 +13,10 @@ export const ContactUs = () => {
   const [message, setMessage] = useState('');
   const[formstate,setFormstate] = useState('Send');
 
+
   const handleSubmit = event => {
     event.preventDefault();
-
+  
     setuser_name('');
     setemail('');
     setsubject('');
@@ -42,6 +44,7 @@ export const ContactUs = () => {
         },
         (error) => {
             console.log("Failed to sent email.");
+            
         });
 
   };

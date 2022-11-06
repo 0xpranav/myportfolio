@@ -12,6 +12,9 @@
 		"start": "next start",
 		"lint": "next lint"
 	},
+	"browser": {
+		"fs": false
+	  },
 	"dependencies": {
 		"@apollo/client": "^3.3.21",
 		"@emailjs/browser": "^3.7.0",
