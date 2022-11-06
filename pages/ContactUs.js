@@ -28,10 +28,10 @@ export const ContactUs = () => {
 
     emailjs
       .sendForm(
-        service_dchfv2g,
-       contact_form,
-        form.current,
-        AYGZjtZlV7XHo2Stg,
+        'service_dchfv2g',
+         contact_form,
+        'form.current',
+        'AYGZjtZlV7XHo2Stg',
       )
       .then(
         (result) => {
