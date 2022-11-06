@@ -28,10 +28,10 @@ export const ContactUs = () => {
 
     emailjs
       .sendForm(
-       process.env.REACT_APP_SERVICE_ID,
-        process.env.REACT_APP_TEMPLATE_ID,
+        service_dchfv2g,
+       contact_form,
         form.current,
-        process.env.REACT_APP_PUBLIC_KEY,
+        AYGZjtZlV7XHo2Stg,
       )
       .then(
         (result) => {
