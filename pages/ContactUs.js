@@ -25,12 +25,13 @@ export const ContactUs = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    
 
     emailjs
       .sendForm(
         'service_dchfv2g',
-        e.target,
-        'form.current',
+         'contact_form',
+          e.target,
         'AYGZjtZlV7XHo2Stg',
       )
       .then(
