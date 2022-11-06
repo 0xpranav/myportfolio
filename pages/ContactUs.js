@@ -29,7 +29,7 @@ export const ContactUs = () => {
     emailjs
       .sendForm(
         'service_dchfv2g',
-        form.current,
+        e.target,
         'form.current',
         'AYGZjtZlV7XHo2Stg',
       )
